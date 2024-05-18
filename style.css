@@ -1,0 +1,116 @@
+/* styles.css */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color :#123962;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #123962;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.auth-buttons button {
+    background: linear-gradient(to right,#17BDF2, #00AEE6);
+    color: #000;
+    border: none;
+    padding: 9px 35px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+}
+
+#login-btn{padding: 9px 60px;}
+
+.auth-buttons button:hover {
+    background: linear-gradient(to bottom, #0099ff, #0033cc);
+    transform: translateY(-2px);
+}
+
+.hero {
+    position: relative;
+    padding: 50px;
+    background-color:(#123962);
+}
+
+.hero-content {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero p {
+    margin-bottom: 40px;
+    color: #bbb;
+}
+
+.hero-image {
+    position: absolute;
+    width: 300px;
+    height: auto;
+}
+
+.fundraisers {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(140%, 25%);
+    text-align: right;
+    padding: 20px;
+    background-color: #0a2e59;
+}
+
+.fundraisers h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.fundraiser {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fundraiser img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.fundraiser-details p {
+    
+    margin: 5px 0;
+    color: #fff;
+}
